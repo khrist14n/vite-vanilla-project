@@ -2,9 +2,6 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import { setupCounter } from './counter'
 
-window.location.hostname = '/vite-vanilla-project/'
-
-
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
