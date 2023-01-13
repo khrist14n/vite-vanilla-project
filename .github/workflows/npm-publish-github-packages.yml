@@ -28,7 +28,7 @@ jobs:
 
       - name: Install dependencies
         run:   | 
-          cd ${GITHUB_WORKSPACE}/vite-vanilla-project && npm install
+          cd ${GITHUB_WORKSPACE}/vite-vanilla-project && npm install --legacy-peer-deps
           cd ${GITHUB_WORKSPACE}/vite-vanilla-project && npm run build
       - name: Change to gh pages
         run: |
